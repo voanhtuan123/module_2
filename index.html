@@ -4,15 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <style>
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    * {
+        box-sizing: border-box;
+    }
     h1 {
         text-align: center;
+        margin-bottom: 50px;
+        font-size:;
+    }
+    p {
+
+        width: 90%;
+        height: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 0;
+        border: 1px solid black;
+        width: 120px;
+        height: 40px;
+        background-color:crimson;
+        margin-left:auto;
+        color:aliceblue;
+    }
+    div {
+        width: 100%;
+        background-color: beige;
+        border: 1px solid black ;
     }
 </style>
 <body>
     <h1> Our menu </h1> 
-
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <h2> Item 1</h2>  
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Totam soluta placeat, dicta laborum blanditiis eos deserunt beatae autem, officia,
+                 nulla earum modi sint qui nemo cupiditate dolores quidem quia itaque.
+            </p>
+        </div>
+        <div class="col-lg-4 col-md-6">  
+                <h2> Item 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Illo, cum suscipit facere perspiciatis blanditiis veniam deserunt deleniti sint repellat,
+                     ipsum quam, alias quis. Optio dolor ut dolore itaque distinctio doloribus.
+                </p>
+            </div>
+        <div class="col-lg-4 col-md-12">  
+            <h2> Item 3 </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+                 temporibus vero odit repudiandae in quisquam quos debitis assumenda nesciunt optio itaque adipisci a facilis,
+                 exercitationem ad dicta hic! Alias, saepe.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
